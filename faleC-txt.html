@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+ <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="_css/principal.css"/>
+     <link rel="stylesheet" href="_css/formularis.css"/>
+     <title>Fale Conosco</title>
+ </head>
+ <div class="interface">
+    <header class="cabecalho"> 
+       <hgroup id="test"> 
+     
+</hgroup>
+<div id="menu-carac">     
+<nav id="menu">
+   <ul> 
+     <li><a href="index.html">Home</a></li>
+      <li><a href="ct-txt.html">Caracteristicas</a></li>
+      <li><a href="Vantag.html">Vantagens</a></li>
+      <li><a href="Result.html">Resultados</a></li>
+      <li><a href="faleC-txt.html">Fale conosco</a></li>
+    </ul>
+</nav>
+</div>
+<h2 class="vant">Fale Conosco</h2>
+</header>  
+<h4 class="quero">Quero Agradecer a todos que perdeu seu tempo lendo esse site, (principalmente eu), levei em torno de 3 semanas para cria-lo, eu fiz isso apenas para saber como é criar um site, não sou um perito e sim estudante, caso encontrar um erro de CSS, HTML ou javascript, ou defeito seila, me perdoe! ainda estou aprendendo rsrs, esse formulário apenas foi uma demonstração de contato, POR e-mail ok?, pode me enviar oque achou!, me perdoe qualquer ofensa não foi minha vontade fazer isso, sempre gostei de assistir Vila sésamo e Barney and Friends, sendo fã dessas duas obras desde criancinha! e relembrando!</h4>
+<h2 class="esse-site">ESSE SITE NÃO FOI CRIADO COM O INTUITO DE TIRAR SARRO, DIFAMAR, OU QUALQUER OUTRA COISA RUIM!</h2>
+<h3 class="e-sim">E sim fazer um meme!</h3>
+  <h1 class="formulario">Formulario</h1>
+  
+   <form method="post" id="contat" action="mailto:telmopersch321@gmail.com">
+
+    <fieldset id="usuario">
+       <legend >Nome de Usuário</legend>
+       <p><label for="nick">Nome:</label><input type="text" name="nnick" id="nick" size="20" maxlenght="30" placeholder="Nome ou Apelido" /></p>
+       <fieldset id="sexo" >
+         <legend >Sexo:</legend>
+         <input type="radio" name="ssexo" id="masc"  checked  ><label for="masc">Masculino</label>
+         <input type="radio" name="ssexo" id="fem" checked ><label for="fem">Feminino</label>
+       </fieldset>
+       <p><label for="senha">Senha:</label><input type="password" name="ssenha" id="senha" size="12" placeholder="Digite Senha"/></p>
+       <p><label for="email">E-mail:</label><input type="email" name="eemail" id="email" size="50" maxlenght="51" placeholder="Digite E-mail" /></p>
+       <p><label for="date">Data de Nascimento:</label><input type="date" name="nnasc" id="nasc" /></p>
+    </fieldset>
+
+    <fieldset id="endereco">
+      <legend>Endereço do Usuário</legend>
+      <p><label for="rua" >Logradouro</label><input type="text" name="rrua" id="rua" size="13" maxlenght="80" placeholder="Rua, Av, etc.." ></p>
+      <p><label for="num">Número:</label><input type="number" name="nnum" id="num" min="0" max="9999" size="20" maxlenght="30" size="30" placeholder="Endereço"/></p>
+      <p><label for="estad">Estado:</label><seLECT name="eestad" id="estad" >
+        <optgroup label="Região Norte">
+          <option value="AC"> Acre </option>
+           <option value="AP"> Amapá </option>
+           <option value="AM"> Amazonas </option>
+             <option value="PA"> Pará </option>
+              <option value="RO"> Rondônia </option>
+                <option value="TO"> Tocantins </option>
+                <option value="RR"> Roraima </option>
+               </optgroup>
+              <optgroup label="Região Centro oeste">
+                <option value="GO"> Goiás </option>
+                <option value="MT"> Mato Grosso </option>
+                  <option value="MS"> Mato Grosso do Sul </option>
+                  <option value="DF"> Distrito Federal </option>
+              </optgroup>
+              <optgroup label="Região Nordeste">
+             <option value="MA" > Maranhão </option>
+              <option value="PI" >Piauí </option> 
+              <option value="CE">Ceará </option>
+              <option value="RN">Rio Grande do Norte </option>
+             <option value="PB"> Paraíba </option> 
+             <option value="PE"> Pernambuco </option>
+             <option value="AL"> Alagoas </option>
+             <option value="SE">Sergipe </option>
+             <option value="BA"> Bahia </option>
+            </optgroup>
+            <optgroup label="Região Sudeste">
+              <option value="SP">São Paulo</option>
+             <option value="MG"> Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+             <option value="ES"> Espírito Santo</option>
+            </optgroup>
+            <optgroup label="Região Sul">
+              <option value="PR"> Paraná </option>
+              <option value="SC"> Santa Catarina </option>
+              <option VALUE="RS"> Rio Grande Do Sul </option>
+            </optgroup>
+            </seLECT>            
+      </p>
+      <p><label for="cid">Cidade:</label><input type="text" name="ccid" id="cid" maxlenght="40" size="20" placeholder="Sua Cidade"></p>
+    </fieldset>
+
+    <fieldset id="mensagem">
+      <legend>Mensagem do Usuário</legend>
+      <p><label for="grau">Grau de Urgência:</label> &nbsp Min<input type="range" name="urg" id="grau" min="0" max="10" step="2"/>Máx</p>
+      <p><label for="msg">Mensagem:</label> &nbsp<textarea name="mmsg" id="msg" cols="45" rows="5"  maxlenght="200" size="200" placeholder="Deixe aqui sua mensagem!!!"></textarea></p>
+    </fieldset>
+
+      <div class="botao">
+        <input type="image" name="bbot" id="botaoid" src="_imagens/Image botao.png">
+      </div>
+
+   </form>
+<footer class="rodape"> 
+    <p>copyright &copy; 2022</br>   
+     <a href="https://www.youtube.com/channel/UCg3F7JVu-hZ0uYh2E-qaQxA" target="_blank"><font color="#ffdb58">Vilá Sésamo</font></a> and
+      <a href="https://www.youtube.com/c/BarneyBrasil" target="_blank"><font color="#ba55d3">Barney & Friend </font> </a></p>
+</footer>
+</div>
+</body>
+<html>

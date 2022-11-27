@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+      <meta charset="utf-8">
+      <title>Caracteristicas</title>
+      <link rel="stylesheet" href="_css/principal.css">
+      <link rel="stylesheet" href="_css/caract.css">
+      <style>
+        img#Garibaldo1{
+           position:absolute;
+           top: 70px;
+           left: 560px;
+        }
+        .Barney1{
+          position: absolute;
+          top: 70px;
+          left: 700px;
+  
+        }
+      </style>
+      <script>
+
+function Garibaldoacerta(){
+    document.getElementById("Garibaldo1").src = "_imagens/Garibaldo-Bate-1.png";
+    document.querySelector(".Barney1").style.visibility="hidden"
+}
+function GaribaldoVolta(){
+    document.getElementById("Garibaldo1").src = "_imagens/Garibaldo-Carac-1.jpg";
+    document.querySelector(".Barney1").style.visibility="visible" 
+}
+function BarneyAcerta(){
+    document.querySelector(".Barney1").src = "_imagens/BarneyBate1.png";
+    document.getElementById("Garibaldo1").src = "_imagens/BarneyBate1 1.png";
+
+    }
+    function BarneyVolta(){
+    document.querySelector(".Barney1").src = "_imagens/Barney carac 1.jpg";
+    document.getElementById("Garibaldo1").src = "_imagens/Garibaldo-Carac-1.jpg";
+    document.getElementById("Garibaldo1").style.visibility="visible"
+    }
+      </script>
+    </head>
+
+
+     <body>
+     
+        <div class="interface">
+            <header class="cabecalho"> 
+               <hgroup id="test"> 
+
+                <h1 id="caract">Caracteristicas</h1>
+           <h3 id="assust">Caracteristicas Assustadores que</h3>
+           <p class="talvez"><font color="red">talvez você NÃO SABIA </font></p>
+           <h3 id="sobreGB"> Sobre Garibaldo e Barney</h3>
+  
+        </hgroup>
+
+      <div id="menu-carac">     
+        <nav id="menu">
+
+           <ul> 
+           
+             <li><a href="index.html">Home</a></li>
+              <li><a href="ct-txt.html">Caracteristicas</a></li>
+              <li><a href="Vantag.html">Vantagens</a></li>
+              <li><a href="Result.html">Resultados</a></li>
+              <li><a href="faleC-txt.html">Fale conosco</a></li>
+
+            </ul>
+         
+       </nav>
+       </div>
+      </header>  
+      <img src="_imagens/Garibaldo-Carac-1.jpg" id="Garibaldo1" onmousemove="Garibaldoacerta()"  onmouseout="GaribaldoVolta()"/>
+
+      <img src="_imagens/Barney carac 1.jpg" class="Barney1" onmousemove="BarneyAcerta()"  onmouseout="BarneyVolta()"/>
+
+      <section class="corpo-carac">
+        <article class="noticia-carac">
+          <header id="cabecalho-artigo-carac">
+            <hgroup>
+               <h2 id="descubr" align="center">Descubra aqui as caracteristicas de cada personagem</h2>
+               <p ALIGN="CENTER" style="font-size: 20px">Você vai descobrir nesta página as caracteristicas que Barney e Garibaldo possui, suas habilidades, oque eles podem fazer, suas capacidades e limitações.</p>
+            </hgroup>   
+           </header>
+     
+       <DIV STYLE="color:white;"> 
+      <h1 id="GariCarac">Garibaldo e suas Caracteristicas</h1>
+    </DIV>
+    <section>
+      <img class="garicarac" src="_imagens/Garibaldo2.jpg" usemap="#meumapa">
+      <map name="meumapa">
+        <area shape="poly" coords="205,94, 105,120, 180,223" href="detalhes-txt.html#bico-01" target="janela">
+        <area shape="circle" coords="78,362, 61" href="detalhes-txt.html#asas-01" target="janela">
+        <area shape="circle" coords="314,333, 125" href="detalhes-txt.html#asas-01" target="janela">
+        <area shape="poly" coords="20,471, 270,480, -9,672,210,673 -46,748, 320,729 " href="detalhes-txt.html#pernas-01" target="janela">
+      </map>
+      <iframe src="detalhes-txt.html" name="janela" id="frame"></iframe>
+    </section>
+    <hgroup class="titucarac"> 
+    <h1>Veja Mais!</h1>
+    <p style="font-size: 20px">Clicando nas areas coloridas, observe as habilidades de Barney</p>
+  </hgroup>
+   <h1 class="BarCarac" align="right">Barney e suas Caracteristicas&nbsp &nbsp &nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp</h1>
+  <section class="barney"> 
+  <img class="BarneyCarac" src="_imagens/BarneyCarac.jpg" usemap="#meumapa02">
+  <map name="meumapa02"> 
+    <area shape="poly" coords="30,50, 99,200, 207,115, 112,112" href="detalhes-txt-02.html#dentes-01" target="janela02">
+    <area shape="poly" coords="70,166, 88,400, 262,400, 199,200" href="detalhes-txt-02.html#barriga-01" target="janela02">
+    <area shape="poly" coords="201,200,  85,600, 204,420" href="detalhes-txt-02.html#pernas-01" target="janela02">
+    <area shape="poly" coords="-48,500, 50,560, 100,444" href="detalhes-txt-02.html#pernas-01" target="janela02">
+  </map>
+  <iframe src="detalhes-txt-02.html" name="janela02" id="frame02"></iframe>
+ </section>
+      <footer class="rodape"> 
+        <p>copyright &copy; 2022</br>   
+         <a href="https://www.youtube.com/channel/UCg3F7JVu-hZ0uYh2E-qaQxA" target="_blank"><font color="#ffdb58">Vilá Sésamo</font></a> and
+          <a href="https://www.youtube.com/c/BarneyBrasil" target="_blank"><font color="#ba55d3">Barney & Friend </font> </a></p>
+    </footer>
+   </div>
+</body>
+<html>
