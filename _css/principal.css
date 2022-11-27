@@ -1,0 +1,364 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Open+Sans:wght@600&family=Rubik+Moonrocks&family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@font-face {
+    font-family: 'IM Fell English SC';
+    src: url(../_fontes/IMFellEnglishSC-Regular.ttf);
+}
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: #ffffff;
+}
+div.interface {
+    width: 1300px;
+    height: auto;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px #000000;
+    padding: 5px;
+    background-color: rgb(22, 22, 22) ;
+}
+header.cabecalho {
+    border-bottom: 1px #606060 dotted;
+}
+header.cabecalho h3{
+    position: relative;
+    top: -10px;
+    margin-top: -15px;
+    margin-bottom: -5px;
+    color: rgb(177, 0, 0);
+    text-shadow: 2px 1px 4px rgb(252, 95, 95);
+}
+header.cabecalho h1{
+    position: relative;
+    font-size: 60pt;
+    font-family: 'Rubik Puddles', cursive;
+    opacity: 1;
+    left: 300px;
+    color:rgb(96, 96, 255);
+    top: 100px;
+
+}
+header.cabecalho h3.nv{
+    position: relative;
+    top: 20px;
+}
+header.cabecalho div{
+    background-image: url("../_imagens/");
+    position: relative;
+    height: 200px;
+    margin-bottom: -140px;
+    left: -5px;
+    width: 1310px;
+}
+header.cabecalho img{
+    position: relative;
+    width: 1312px;
+    left: 0px;
+    height: 240px;
+    top: -10px;
+}
+.Significa01{
+ background: url(../_imagens/nyan-cat.gif);
+}
+/* PRIMEIRA FOTO */
+figure.foto01 {
+    position: relative;
+    border: 10px #000000;
+    box-shadow: 2px 3px 3px #000000;
+    width: 80%;
+    height: 100%;
+    left: 35px;
+}
+
+figure.foto01 img{
+    width: 100%;
+    height: 100%; 
+    display: block;
+}
+figure.foto01 figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(221, 255, 70, 0.185);
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0%;
+    transition: opacity 1s;
+}
+figure.foto01:hover figcaption{
+    opacity: 1;
+}
+/* MENU */
+nav#menu li{
+    display: inline-block;
+    margin: 5px;
+    background-color: rgb(219, 36, 36);
+    padding: 10px;
+    border-style: groove;
+    border-color:rgba(61, 1, 1, 0.521);
+    border-bottom-width: 6px;
+    border-top-width: 6px;
+    border-left-width: 4px;
+    border-right-width: 7px;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+nav#menu li:hover {
+     background: url(../_imagens/fogo.gif);
+     background: url(../_imagens/giphy.gif);
+}
+nav#menu ul{
+    position: relative;
+    top: -265px;
+    left: 25px;
+}
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px;
+
+}
+nav#menu a:hover{
+    text-decoration: underline;
+    color: #ff3a3a;
+}
+section.corpo{
+    border-right: 1px dotted rgb(112, 112, 112);
+    display: block;
+    width: 655px;
+    float: left;
+    padding-right: 0px;
+}
+
+article.noticia{
+    width: 625px;
+}
+aside.lateral{
+    width: 630px;
+    float: right;
+    display: block;
+    margin-top: 0px;
+}
+aside.lateral img{
+    width: 500px;
+}
+header#cabecalho-artigo h2{
+    margin-bottom: 0px;
+    margin-top: -60px;
+    color: rgb(132, 132, 255);
+    text-shadow: 2px 1px 3px rgb(167, 167, 167);
+}
+header#cabecalho-artigo h4{
+font-size: 8pt;
+margin-top: 15px;
+margin-bottom: 19px;
+color: #7dcfff;
+text-shadow: 1px 1px 3px rgb(190, 190, 190);
+}
+header#cabecalho-artigo h5{
+    font-size: 8pt;
+    position: absolute;
+    top: 360px;
+    left: 800px;
+}
+footer.rodape{
+    clear:both;
+    border-top: 1px dotted #606060;
+}
+footer.rodape p{
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+  
+
+}
+footer.rodape a{
+
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+/* TABELA 01 */
+table.tabela{
+    border: 2px solid #ffea04;
+    border-spacing: 0px;
+    margin-right: auto;
+    margin-left: auto;
+   margin-top: -30px;
+}
+table.tabela td{
+    border: 1px solid #969300;
+    padding: 20px;
+    vertical-align: middle;
+}
+table.tabela td.es{
+    color:#525252;
+    background-color: #fff692;
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;
+
+}
+table.tabela td.dr{
+background-color:#fff8ac;
+color:rgb(219, 36, 36);
+}
+table.tabela td.ct{
+    background-color: #fff47a;
+    color: rgb(190, 172, 7);
+    
+}
+table.tabela caption {
+    margin-bottom: -20px;
+    color:rgb(238, 221, 70);
+    text-shadow: 2px 3px 4px rgb(250, 241, 77);
+    font-size: 15pt;
+    font-family: 'IM Fell English SC', serif;
+}
+table.tabela01{
+    border: 2px solid purple;
+    border-spacing: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+table.tabela01 td{
+    border: 1px solid rgb(63, 2, 63);
+    padding: 20px;
+    vertical-align: middle;
+}
+table.tabela01 td.es{
+    color:#313131;
+    background-color:rgb(218, 56, 218);
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;
+}
+table.tabela01 td.dr {
+    background-color:rgb(224, 108, 224);
+    color:#9e0c0c;
+}
+table.tabela01 td.ct {
+    color:rgb(134, 6, 117);
+    background-color:rgb(224, 59, 224);
+}
+table.tabela01 caption{
+    color: rgb(167, 23, 167);
+    text-shadow: 2px 2px 4px rgb(107, 2, 93); 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    text-transform: uppercase;
+
+}
+iframe#sesamo{
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    border: 10px black;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 35px;
+}
+/* CONFIG DOS BANNERS */
+article.noticia h1{
+  background-color: rgb(211, 173, 5);
+  font-size: 20pt;
+  margin-right: -30px;
+  margin-bottom: -10px;
+  margin-left: -5px;
+  padding: 6px;
+  margin-top: -12px;
+}
+article.noticia h1.gari{
+    background-color:rgb(255, 225, 55);
+    text-align: center;
+    padding: 3px;
+}
+article.noticia h1.espec{
+    background-color:rgb(255, 225, 55);
+    padding: 3px;
+}
+article.noticia h1.abert{
+    background-color: rgb(241, 255, 38);
+    font-size: 20pt;
+    margin-left: -5px;
+    padding: 3px;
+    margin-top: 13px;
+}
+div#abertu h3#ab {
+    color: rgb(96, 96, 255);
+    text-shadow: 1px 1px 3px rgb(175, 134, 0);
+    text-align: center;
+    margin-bottom: 1px;
+}
+/*banner LATERAL */
+aside.lateral h1{
+ background-color: rgb(192, 71, 192);
+ padding: 3px;
+ margin-top: 0px;
+ margin-left: -15px;
+ margin-right: -5px;
+ padding: 8px;
+ text-align: center;
+}
+aside.lateral h2.bd{
+    background-color: rgb(192, 71, 192);
+    padding: 3px;
+    margin-left: -15px;
+    margin-right: -5px;
+
+}
+aside.lateral h1.especB{
+    text-align: left; 
+    padding: 5px;
+    margin-top: 13px;
+}
+div#barneyabert h3#ab{
+    color: rgb(122, 122, 255);
+    text-align: center;
+    text-shadow: 1px 2px 3px rgb(206, 60, 206);
+   margin-bottom: 5px;
+}
+figure.foto02{
+   position: relative;
+    margin-left: 60px;
+    box-shadow: 2px 3px 4px rgb(0, 0, 0);
+    border: 5px black;
+}
+figure.foto02 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+figure.foto02 figcaption{
+    position: absolute;
+    top: 0px;
+    background-color:rgba(255, 89, 255, 0.274);
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+figure.foto02:hover figcaption{
+opacity: 1;
+}
+img#Garibaldo-1 {
+    width: auto;
+    height: auto;
+}
+img#Barney-1{
+    width: auto;
+    height: auto; 
+}

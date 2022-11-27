@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@1,300&display=swap');
+div.interface{
+    height: auto;
+}
+header.cabecalho h1#caract{
+    color: rgb(255, 34, 34);
+    top: 140px;
+    margin-left: 15rem;
+    font-family: 'Merienda', cursive;
+    text-shadow: 4px 4px 4px rgb(128, 0, 0);
+
+}
+header.cabecalho {
+    border: none;
+}
+div#menu-carac {
+    top: 125px;
+}
+h3#assust{
+    color: rgb(131, 2, 24);
+    top: 65px;
+    position: relative;
+    font-family: 'BIZ UDMincho', serif;
+    text-shadow: 2px 3px 4px black;
+}
+h3#sobreGB{
+    color: rgb(255, 147, 6);
+    top: 60px;
+    font-size: 20pt;
+    position: relative;
+    font-family: 'BIZ UDMincho', serif;
+    margin-bottom: -130px;
+}
+.talvez{
+    position: relative;
+    top: 55px;
+    font-family: 'BIZ UDMincho', serif;
+}
+
+header#cabecalho-artigo-carac h2#descubr{
+    background: url(../_imagens/pikamee-amano-pikamee.gif);
+    padding: 14px;
+    margin-left: -5px;
+    margin-right: -5px;
+    top: -22px;
+    position: relative;
+    opacity: 0.7;
+
+}
+section.corpo-carac img{
+    width: 300px;
+    left: 50px;
+    position: relative;
+}
+section.corpo-carac{
+    margin-top: 150px;
+
+    
+}
+h1#GariCarac{
+    color: rgb(246, 255, 126);
+    position: relative;
+    left: 20px;
+    font-size: 20pt;
+    font-family: 'Faustina', serif;
+    text-shadow: 2px 2px 4px #a9b31f;
+}
+body#bodry {
+    background-color: rgb(22, 22, 22);
+}
+
+iframe#frame {
+    width: 500px;
+    height: 490px;
+    left: 300px;
+    top: -270px;
+    position: relative;
+    border:none; 
+	overflow: hidden; 
+}
+h2#carac01{
+    background-color: rgb(235, 255, 60);
+    margin-right: -20px;
+    margin-left: -20px;
+
+}
+h2#descubr{
+    font-family: 'Squada One', cursive;
+    color: #1582ff;
+    font-size: 20pt;
+    text-shadow: 2px 2px 2px #01254e; 
+    text-transform: uppercase;
+}
+img#bico01{
+    width: 250px;
+    left: 100px;
+    position: relative;
+
+}
+img#empe{
+    width: 0px;
+    height: 400px;
+    position: relative;
+    left: 5px;
+    margin-top: -40px;
+
+}
+img#pe01{
+    position: relative;
+    left: 20px;
+}
+article{
+    margin-bottom: 400px;
+}
+iframe#frame::-webkit-scrollbar {
+    display: none;
+   }
+   article#pernas-01{
+   position: relative;
+    top: -50px;
+
+   }
+/* barney */
+hgroup.titucarac h1{
+   color:rgb(87, 87, 87);
+   text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-size: 25pt;
+    top: 50px;
+    position: relative;
+    background-color:rgb(29, 29, 29);
+    margin-right: -5px;
+    margin-left: -5px;
+    padding: 10px;
+    border-style:outset;
+    border-color:rgb(36, 36, 36);
+    border-width: 5px;
+}
+hgroup.titucarac p{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.BarCarac{
+    COLOR: rgb(212, 0, 255);
+    position: relative;
+    top: 70px;
+    font-size: 20pt;
+    margin-left: 0px;
+    font-family: 'Faustina', serif;
+    text-shadow: 2px 2px 4px rgb(198, 57, 253);
+
+}
+.barney .BarneyCarac{
+    position: relative;
+    left: 900px;
+    margin-bottom: 100px;
+    top: 70px;
+
+}
+iframe#frame02 {
+    position: relative;
+    top: -200px;
+    width: 500px;
+    height: 490px;
+    left: -120px;
+    border: none;
+}
+img#Garibaldo-1 {
+    width: auto;
+    height: auto;
+}
+img#Barney-1{
+    width: auto;
+    height: auto; 
+}
+.rodape{
+    margin-top: 40px;
+    margin-bottom: -340px;
+}
+   

@@ -1,0 +1,443 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body{
+    background: url('../_imagens/teste.gif');
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+}
+div.interface {
+    height: auto;
+    width: 1200px;
+}
+h1#vantag {
+    font-size: 100px;
+    color: rgb(255, 71, 71);
+    text-align: left ;
+    position: relative;
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 3px 5px 6px red;
+    text-align: center;
+    top: 80px;
+}
+nav#menu{
+   top: -95px;
+   position: relative;
+
+}
+h4#talvez {
+    color: rgb(80, 0, 126);
+}
+header.cabecalho{
+    border: none;
+}
+h4#cabecal{
+    background: url('../_imagens/nyan-cat-pixel-art.gif');
+    POSITION: relative;
+    TOP: 40px;
+    padding: 15px;
+    margin-left: -5px;
+    margin-right: -5px;
+    text-align: center;
+    color: rgb(126, 50, 126);
+    text-shadow: 2px 2px 4px rgb(31, 1, 44);
+    font-size: 25pt;
+    border-style:dashed;
+    border-color: rgb(80, 0, 80);
+    font-family: 'Rubik Wet Paint', cursive;
+    text-transform: uppercase;
+}
+h1#vantgari {
+    color: rgb(250, 250, 41);
+    text-shadow: 4px 2px 5px rgb(0, 0, 0);
+    position: relative;
+    top: -1px;
+    text-align: center;
+    background-color:rgb(255, 253, 107);
+    padding: 5px;
+    margin-left: -5px;
+}
+.vat{
+    font-family: 'Fredoka One', cursive;
+}
+/* CORPO */
+.corpo-vantag{
+    border-right: 1px dotted rgb(155, 155, 155) ;
+    width: 600px;
+    position: relative;
+    top: -80px;
+    height: auto;
+}
+/*foto 1°*/
+ul#fot01{
+    width: 700px;
+    margin: 0 auto;
+    padding: 45px;
+    list-style: none;
+}
+ul#fot01 li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #ffffff3d;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px #000000;
+    -webkit-transition: all 0.4s ease-in;
+    position: relative;
+    left: -30px;
+    top: -40px;
+}
+ul#fot01 li span{
+    position: relative;
+    opacity: 0;
+    color: #ff0000;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 9pt;
+    line-height: 370px;
+    transition: opacity 0.4s;
+    left: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ul#fot01 li:hover {
+    -webkit-transform: scale(1.5);
+
+}
+ul#fot01 li:hover span {
+    opacity: 1;
+}
+ul#fot01 li#gv-01 {
+    background: url('../_imagens/G-v1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 350px 350px;
+    border: 2px solid #ffffff3d; 
+}
+ul#fot01 li#gv-01:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* TEXTOS */
+.p1 {
+
+    margin-top: -50px;
+    margin-right: 40px;
+}
+.p2 {
+    margin-top: -40px;
+    margin-right: 10px;
+   
+}
+.p3{
+    margin-right: 40px;
+}
+.Xxx{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(153, 0, 0);
+    text-shadow: 2px 2px 4px rgb(105, 0, 0);
+    background: url(../_imagens/teste.gif);
+    margin-left: -5px;
+    padding: 10px;
+    border-style:ridge;
+    border-color:rgb(39, 39, 39);
+  }
+.GaribaldoX {
+    color: rgb(235, 255, 123);
+    text-shadow: 2px 2px 3px rgb(216, 204, 93);
+    font-family: 'Cinzel', serif;
+ 
+}
+.BarneyX{
+    color:rgb(136, 0, 136);
+    text-shadow: 2px 2px 4px rgb(137, 77, 163);
+    font-family: 'Cinzel', serif;
+}
+/* foto 2 */
+ul#fot02{
+    width: 700px;
+    margin: 0 auto;
+    padding: 45px;
+    list-style: none;
+}
+ul#fot02 li{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #ffffff3d;
+    background-color: #ffffff3d;
+    box-shadow: 1px 1px 3px #000000;
+    left: -30px;
+    -webkit-transition: all 0.4s ease-in;
+   
+}
+ul#fot02 li span{
+    position: relative;
+    opacity: 0;
+    color: rgb(104, 72, 248);
+    text-shadow: 2px 3px 3px rgb(68, 0, 255);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 9pt;
+    line-height: 370px;
+    transition: opacity 0.4s;
+    left: 45px;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+}
+ul#fot02 li:hover {
+    -webkit-transform: scale(1.5)
+}
+ul#fot02 li:hover span{
+    opacity: 1;
+}
+ul#fot02 li#gv-02{
+    background: url('../_imagens/Garibaldo-Transform.jpg');
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    border: 2px solid #ffffff3d;
+}
+ul#fot02 li#gv-02:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* foto 3 */
+ul#fot03{
+    width: 700px;
+    margin: auto;
+    padding: 45px;
+    list-style: none;
+}
+ul#fot03 li{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #ffffff3d;
+    background-color: #ffffff3d;
+    box-shadow: 1px 1px 3px #000000;
+    left: -30px;
+    -webkit-transition: all 0.4s ease-in;
+}
+ul#fot03 li span{
+    color:rgba(255, 255, 255, 0.39);
+    text-shadow: 2px 2px 3px #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13pt;
+    position: relative;
+    line-height: 370px;
+    left: 50px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ul#fot03 li:hover{
+    -webkit-transform: scale(1.5);
+}
+ul#fot03 li:hover span{
+    opacity: 1;
+}
+ul#fot03 li#gv-03{
+    background: url('../_imagens/anntes-quebrar.jpg');
+    background-position: 10% 50%;
+    background-size: 400px 250px;
+    border: 2px solid #ffffff3d;
+}
+ul#fot03 li#gv-03:hover{
+    background-position: 0% 0%;
+    background: url('../_imagens/quebra\ realidade.jpg');
+    background-size: 300px 200px;
+}
+/* BARNEY */
+
+.lateral-02{
+     width: 600px;
+     float: right;
+     margin-top: -1402px;
+     height: auto;
+     position: relative;
+}
+.lateral-02 h1{
+    background-color: #910085;
+    text-align: center;
+    margin-right: -5px;
+    margin-left: -0px;
+    padding: 5px;
+    color: rgb(156, 48, 156);
+    text-shadow: 5px 2px 5px #000000;
+    font-size: 14pt;
+}
+.b1{
+    margin-top: -62px;
+    margin-right: 20px;
+}
+ul#fot-01{
+    width: 700px;
+    margin: auto;
+    padding: 45px;
+    list-style: none;
+}
+ul#fot-01 li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #ffffff3d;
+    background-color: #ffffff3d;
+    box-shadow: 1px 1px 3px #000000;
+    position: relative;
+    left: -25px;
+    top: -34px;
+    transition: all 0.4s ease-in;
+}
+ul#fot-01 li:hover{
+    transform: scale(1.5);
+}
+ul#fot-01 li span{
+    color:rgb(105, 0, 0);
+    text-shadow: 2px 2px 3px red;
+    font-size: 15pt;
+    line-height: 370px;
+    position: relative;
+    left: 60px;
+    transition: opacity 1s;
+    opacity: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ul#fot-01 li:hover span{
+    opacity: 1;
+}
+ul#fot-01 li#bv-01{
+    background: url('../_imagens/Atk Olhos.jpg');
+    background-position: 50% 20%;
+    background-size: 400px 400px;
+    border: 2px solid #ffffff3d;
+}
+ul#fot-01 li#bv-01:hover{
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+/*foto 2 */
+.b2{
+ MARGIN-TOP: -40px;
+ margin-left: 270px;
+}
+ul#fot-02 {
+    width: 700px;
+    margin: auto;
+    padding: 45px;
+    list-style: none;
+}
+ul#fot-02 li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border: 2px solid #ffffff3d;
+    background-color: #ffffff3d;
+    box-shadow: 1px 1px 3px #000000;
+    position: relative;
+    left: -15px;
+    -webkit-transition: all 0.4s ease-in;
+}
+ul#fot-02 li:hover{
+    -webkit-transform: scale(1.5);
+}
+ul#fot-02 li span{
+    color:rgb(137, 77, 163);
+    font-size: 13pt;
+    text-shadow: 2px 2px 3px purple;
+    line-height: 370px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-family: 'Secular One', sans-serif;
+}
+ul#fot-02 li:hover span{
+    opacity: 1;
+}
+ul#fot-02 li#bv-02{
+    background: url('../_imagens/TransformaçãoBarney.jpg');
+    background-position: 50% 0%;
+    background-size: 400px 400px;
+}
+ul#fot-02 li#bv-02:hover{
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+}
+/* FOTO 3 */
+.b3{
+ margin-top: -40px;
+ margin-left: 270px;
+}
+ul#fot-03{
+    width: 700px;
+    margin: auto;
+    padding: 45px;
+    list-style: none;
+}
+ul#fot-03 li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border: 2px solid #ffffff3d;
+    background-color: #ffffff3d;
+    box-shadow: 1px 1px 3px #000000;
+    position: relative;
+    left: -15px;
+    -webkit-transition: all 0.4s ease-in;
+}
+ul#fot-03 li:hover {
+    -webkit-transform: scale(1.5);
+}
+ul#fot-03 li span{
+    color:rgb(79, 96, 255);
+    font-size: 15pt;
+    text-shadow: 2px 2px 3px rgb(0, 43, 100);
+    line-height: 370px;
+    position: relative;
+    left: 30px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ul#fot-03 li:hover span{
+    opacity: 1;
+}
+ul#fot-03 li#bv-03{
+    background: url('../_imagens/unidimensional.jpg');
+    background-position: 50% 10%;
+    background-size: 500px 500px;
+}
+ul#fot-03 li#bv-03:hover{
+  background-position: 0% 0%;
+  background-size: 200px 200px;
+
+}
+.xxx{
+    margin-top: 155px;
+    margin-right: -6px;
+    margin-left: 2px;
+}
+.xxX{
+    margin-top: 61px;
+    margin-left: 2px;
+}
+.rodape{
+    margin-top: -300px;
+    position: relative;
+    top: -95px;
+}
+hgroup#rodape-g{
+    position: relative;
+    top: 50px;
+}
+
